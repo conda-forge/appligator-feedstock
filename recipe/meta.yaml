@@ -1,5 +1,5 @@
 {% set name = "appligator" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/appligator-{{ version }}.tar.gz
-  sha256: 0ee227d8b3a9b07f1d1af0033256cc8591704f0a85cd9c26aebf96838d3e93c9
+  sha256: db220e73b58830d2848d23635fbdcb5de9bea7dd404b6a26baf36ab9032cc325
 
 build:
   entry_points:
@@ -27,8 +27,8 @@ requirements:
     - pydantic
     - pyyaml
     - typer
-    - gavicore >=0.0.7
-    - procodile >=0.0.7
+    - gavicore >=0.0.9
+    - procodile >=0.0.9
 
 test:
   imports:
@@ -54,5 +54,12 @@ about:
 
 extra:
   recipe-maintainers:
+    - AliceBalfanz
+    - b-yogesh
+    - clarasb
     - forman
+    - konstntokas
     - pont-us
+    - TejasMorbagal
+    - thomasstorm
+    - TonioF
