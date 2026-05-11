@@ -25,10 +25,10 @@ requirements:
   run:
     - python >={{ python_min }}
     - jinja2
-    - tomli  # Can be removed when we drop Python 3.10 support
-    - tomli-w
     - pydantic
     - pyyaml
+    - tomli  # Can be removed when we drop Python 3.10 support
+    - tomli-w
     - typer
     - gavicore >=0.1.0
     - procodile >=0.1.0
