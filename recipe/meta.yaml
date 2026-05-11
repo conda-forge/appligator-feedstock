@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - jinja2
-    - tomli # [py<311]
+    - tomli  # Can be removed when we drop Python 3.10 support
     - tomli-w
     - pydantic
     - pyyaml
