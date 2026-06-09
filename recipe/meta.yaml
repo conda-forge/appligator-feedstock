@@ -28,7 +28,6 @@ requirements:
     - jinja2
     - pydantic
     - pyyaml
-    - tomli  # Can be removed when we drop Python 3.10 support
     - tomli-w
     - typer
     - gavicore >=0.1.1
