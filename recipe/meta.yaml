@@ -1,5 +1,5 @@
 {% set name = "appligator" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/appligator-{{ version }}.tar.gz
-  sha256: d0d082478f2875a9b9ecccc8e8902cd38dc6901684995649010bd590a92d94f4
+  sha256: 0a634ac2098cb6fbc37e0b1d00c263f00be8b44e191e5880fc13888f94e70c06
 
 build:
   entry_points:
