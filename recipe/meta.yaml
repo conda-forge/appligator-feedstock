@@ -29,9 +29,9 @@ requirements:
     - pydantic
     - pyyaml
     - tomli-w
-    - typer
-    - gavicore >=0.1.2
-    - procodile >=0.1.2
+    - typer >=0.26.0,<1
+    - gavicore >=0.2.0
+    - procodile >=0.2.0
 
 test:
   imports:
