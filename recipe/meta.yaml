@@ -29,8 +29,8 @@ requirements:
     - pyyaml
     - tomli-w
     - typer >=0.26.0,<1
-    - gavicore >=0.2.0
-    - procodile >=0.2.0
+    - gavicore >=0.3.0
+    - procodile >=0.3.0
 
 test:
   imports:
