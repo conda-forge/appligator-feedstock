@@ -1,14 +1,13 @@
 {% set name = "appligator" %}
-{% set version = "0.2.0" %}
-{% set python_min = "3.11" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/appligator-{{ version }}.tar.gz
-  sha256: 9b6c8155a7aef60e66c8fd74bdd26f8c5aa41adb716a0ea8d08b992fbebcae19
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/appligator-{{ version }}.tar.gz
+  sha256: 852e3f4ad2230b1cbc067f60ea7e80be1fc3ed6af990b369a1fb364cef3354e4
 
 build:
   entry_points:
@@ -30,8 +29,8 @@ requirements:
     - pyyaml
     - tomli-w
     - typer >=0.26.0,<1
-    - gavicore >=0.2.0
-    - procodile >=0.2.0
+    - gavicore >=0.3.0
+    - procodile >=0.3.0
 
 test:
   imports:
